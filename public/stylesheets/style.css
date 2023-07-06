@@ -11,4 +11,26 @@ a {
   color: #00B7FF;
 }
 
+.skill-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+  font-size: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: lightgrey;
+}
+	
+li {
+  list-style: none;
+}
 

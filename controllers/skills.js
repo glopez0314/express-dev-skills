@@ -4,6 +4,7 @@ module.exports = {
     index,
     show,
     new: newSkill,
+    create,
 }
 
 function index(req, res) {
@@ -17,6 +18,12 @@ function show(req, res) {
         skill: Skill.getOne(req.params.id),
     });
 }
+
 function newSkill(req, res) {
     res.render('skills/new')
+}
+
+function create(req, res) {
+    Skill.create(req.body);
+    res.redirect('/skills');
 }

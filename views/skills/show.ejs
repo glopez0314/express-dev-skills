@@ -9,6 +9,9 @@
 <body>
     <h1><%= skill.skill %></h1>
     <h3>Learned: <%= skill.learned ? 'Yes' : 'No' %></h3>
+    <form action="/skills/<%= skill.id %>?_method=DELETE" class="delete-form" method="POST">
+      <button type="submit">X</button>
+    </form>
     <a href="/skills">Back to List</a>
     <a href="/">Home</a>
   </body>

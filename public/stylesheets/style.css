@@ -19,12 +19,12 @@ a {
 
 .delete-form {
   display: inline-block;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 	
 .delete-form button {
   color: red;
-  font-size: 10px;
+  font-size: 15px;
   border-radius: 50%;
   border: none;
   background-color: lightgrey;
